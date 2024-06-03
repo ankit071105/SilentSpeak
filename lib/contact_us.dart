@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:news/post.dart';
-import 'main.dart';
+
 
 class ContactUsPage extends StatelessWidget {
   @override
@@ -62,7 +61,7 @@ class ContactUsPage extends StatelessWidget {
                           borderRadius: BorderRadius.circular(40), // Adjust the radius as needed
                           child: Image.asset(
                             'assets/images/1209.jpeg', // Replace with your image path
-                            height: 250,
+                            height: 200,
                           ),
                         )
 

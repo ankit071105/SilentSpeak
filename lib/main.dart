@@ -85,7 +85,7 @@ class LoginPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xff5fffc2),
+      backgroundColor: Color(0xff9dafbb),
       body: Center(
         child: SingleChildScrollView(
           child: Column(
@@ -95,7 +95,7 @@ class LoginPage extends StatelessWidget {
               Hero(
                 tag: 'logo',
                 child: CircleAvatar(
-                  radius: 200,
+                  radius: 180,
                   backgroundImage: AssetImage('assets/images/120.png'), // Replace 'assets/logo_image.png' with your image path
                 ),
               ),
@@ -139,7 +139,8 @@ class LoginPage extends StatelessWidget {
                     SizedBox(height: 20),
                     TextButton(
                       onPressed: signUpCallback,
-                      child: Text('Sign Up'),
+                      child: Text('Sign Up' , style: TextStyle(color:Color(
+                          0xff0b165d) ),),
                     ),
                   ],
                 ),
@@ -161,7 +162,7 @@ class SignUpPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xff5fffc2),
+      backgroundColor: Color(0xff6e8093),
       body: Center(
         child: SingleChildScrollView(
           child: Column(
@@ -171,8 +172,8 @@ class SignUpPage extends StatelessWidget {
               Hero(
                 tag: 'logo',
                 child: CircleAvatar(
-                  radius: 200,
-                  backgroundImage: AssetImage('assets/images/120.png'), // Replace 'assets/logo_image.png' with your image path
+                  radius: 150,
+                  backgroundImage: AssetImage('assets/images/1200.png'), // Replace 'assets/logo_image.png' with your image path
                 ),
               ),
               SizedBox(height: 40),
@@ -251,7 +252,8 @@ class SignUpPage extends StatelessWidget {
                     SizedBox(height: 20),
                     TextButton(
                       onPressed: backToLoginCallback,
-                      child: Text('Already Logged In?'),
+                      child: Text('Already Logged In?' ,
+                      style: TextStyle(color: Colors.white,),),
                     ),
                   ],
                 ),
@@ -283,14 +285,6 @@ class MainContent extends StatelessWidget {
           children: [
             Stack(
               children: [
-                Hero(
-                  tag: 'logo',
-                  child: CircleAvatar(
-                    radius: 100,
-                    backgroundImage: AssetImage('assets/images/120.png'), // Replace 'assets/logo_image.png' with your image path
-                  ),
-                ),
-                Profile(),
                 Post(),
               ],
             ),

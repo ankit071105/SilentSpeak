@@ -31,13 +31,14 @@ class _HomeState extends State<Home> {
               : Matrix4.translationValues(500, 0, 0), // Slide in from the right
           child: Container(
             decoration: BoxDecoration(
-              color: Color(0xff6ad7ff),
+              color: Color(0xff9ef7ff),
               borderRadius: BorderRadius.only(
                 bottomLeft: Radius.circular(50.0),
                 topLeft: Radius.circular(50.0),
               ),
             ),
-            margin: EdgeInsets.only(left: 20.0),
+            margin: EdgeInsets.only(left: 30.0,bottom: 50),
+
             height: 400,
             width: double.infinity,
             child: ClipRRect(
@@ -74,7 +75,7 @@ class _HomeState extends State<Home> {
                       fontStyle: FontStyle.italic,
                       fontFamily: 'Futura',
                       fontWeight: FontWeight.w600,
-                      color: Color(0xff2e063a),
+                      color: Color(0xffc7f3ff),
                     ),
                   ),
                   SizedBox(height: 20),
@@ -85,7 +86,7 @@ class _HomeState extends State<Home> {
                       fontStyle: FontStyle.italic,
                       fontFamily: 'Futura',
                       fontWeight: FontWeight.w600,
-                      color: Color(0xff2e063a),
+                      color: Color(0xffffde71),
                     ),
                   ),
                 ],

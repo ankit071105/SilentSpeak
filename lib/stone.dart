@@ -243,14 +243,7 @@ class _StonePaperScissorsState extends State<StonePaperScissors> with SingleTick
             child: AnimatedOpacity(
               duration: Duration(seconds: 1),
               opacity: _showTicTacGo ? 1 : 0, // Fade in animation
-              child: Text(
-                'Tic-Tac-Go',
-                style: TextStyle(
-                  fontSize: 24.0,
-                  color: Colors.white,
-                  fontWeight: FontWeight.bold,
-                ),
-              ),
+             
             ),
           ),
           SizedBox(height: 20),

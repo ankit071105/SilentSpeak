@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
 
-const Color mainColor = Color(0xffacf2ff);
-const Color mainColors = Color(0xff1c052f);
-const Color SColor = Color(0xffc7ea5d);
-const Color Colore = Color(0xff47e56c);
+const Color mainColor = Color(0xffa898e7);
+const Color mainColors = Color(0xffb2faf2);
+const Color SColor = Color(0xff5deac9);
+const Color Colore = Color(0xffa2a4a6);
 const TextStyle titleText = TextStyle(
   fontSize: 40.0,
   fontWeight: FontWeight.w700,

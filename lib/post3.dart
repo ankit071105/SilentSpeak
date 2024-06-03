@@ -100,6 +100,7 @@ class _Post3State extends State<Post3> {
     'ଷ': '--...', 'ସ': '...', 'ହ': '..-.', 'ଡ଼': '.-.--', 'ଢ଼': '.-.--.', 'ଣ଼': '.--.-', 'ଃ': '.-..-', 'ଽ': '.-.-.',
     'ଁ': '..--.', '଼': '.----', '୍': '.-.-',
     'ା': '.-', 'ି': '..-', 'ୀ': '..-..', 'ୁ': '.--', 'ୂ': '.-..-', 'େ': '-.', 'ୈ': '-.--', 'ୋ': '---', 'ୌ': '.--.', 'ୃ': '.--.-',
+    "Bijay":".-.-.-"
   };
 
   // Function to convert text to Morse code
@@ -182,7 +183,7 @@ class _Post3State extends State<Post3> {
                   updateMorseRepresentation(text);
                 },
                 decoration: InputDecoration(labelText: 'Enter Text or Morse Code'),
-                style: TextStyle(color: Color(0xff290231), ),
+                style: TextStyle(color: Color(0xffeafffb), ),
               ),
               SizedBox(height: 10.0),
               ElevatedButton(
@@ -206,23 +207,23 @@ class _Post3State extends State<Post3> {
 
               Text(
                 'Morse Representation:',
-                style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Color(0xff3e0375)),
+                style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Color(0xffeafffb)),
               ),
               SizedBox(height: 10.0),
               Text(
                 _morseRepresentation,
-                style: TextStyle(fontSize: 22, color: Color(0xff3e0375)),
+                style: TextStyle(fontSize: 22, color: Color(0xffeafffb)),
               ),
               SizedBox(height: 20.0),
               Text(
                 'Converted Text:',
                 style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Color(
-                    0xff1e1444)),
+                    0xffeafffb)),
               ),
               SizedBox(height: 10.0),
               Text(
                 _convertedText,
-                style: TextStyle(fontSize: 28, color: Color(0xff3e0375)),
+                style: TextStyle(fontSize: 28,fontWeight: FontWeight.w900, color: Color(0xffd9e71b)),
               ),
             ],
           ),

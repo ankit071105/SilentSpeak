@@ -92,7 +92,7 @@ class _SingleState extends State<Single> with SingleTickerProviderStateMixin {
       backgroundColor: _colorAnimation.value, // Set background color to dynamically changing color
       body: Container(
         decoration: BoxDecoration(
-          color: Color(0xffd9e01b), // Background color
+          color: Color(0xff1be0d0), // Background color
           borderRadius: BorderRadius.circular(5), // Adjust border radius as needed
           boxShadow: [
             BoxShadow(

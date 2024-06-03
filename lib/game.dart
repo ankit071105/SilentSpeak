@@ -5,16 +5,16 @@ import 'stone.dart';
 
 void main() {
   runApp(MaterialApp(
-    home: MyApp(),
+    home: Hello(),
   ));
 }
 
-class MyApp extends StatefulWidget {
+class Hello extends StatefulWidget {
   @override
   _MyAppState createState() => _MyAppState();
 }
 
-class _MyAppState extends State<MyApp> with SingleTickerProviderStateMixin {
+class _MyAppState extends State<Hello> with SingleTickerProviderStateMixin {
   late AnimationController _controller;
   late Animation<double> _imageAnimation;
   late Animation<Offset> _buttonAnimation;

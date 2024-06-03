@@ -5,9 +5,9 @@ class Post4 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xff09184b),
+      backgroundColor: Color(0xff055477),
       appBar: AppBar(
-        backgroundColor: Color(0xff241946),
+        backgroundColor: Color(0xff441279),
         elevation: 0,
         leading: IconButton(
           icon: Icon(Icons.arrow_back),
